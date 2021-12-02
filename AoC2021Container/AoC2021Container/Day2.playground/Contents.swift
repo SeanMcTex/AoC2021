@@ -39,4 +39,22 @@ contentArray.forEach { subCommand in
 
 print(distance * depth)
 
+// part 2
+var aim = 0
+distance = 0
+depth = 0
+
+contentArray.forEach { subCommand in
+    switch subCommand.direction {
+    case .forward:
+        distance += subCommand.magnitude
+        depth += aim * subCommand.magnitude
+    case .up:
+        aim -= subCommand.magnitude
+    case .down:
+        aim += subCommand.magnitude
+    }
+}
+
+print(distance * depth)
 
