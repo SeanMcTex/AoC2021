@@ -27,6 +27,7 @@
 		EAB721482757BD2B0067639C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAB7214E2757BD6A0067639C /* Day1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		EAB795222759112900565EB6 /* Day2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EAB79528275A5EF900565EB6 /* Day3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day3.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +70,7 @@
 				EAB721482757BD2B0067639C /* Info.plist */,
 				EAB7214E2757BD6A0067639C /* Day1.playground */,
 				EAB795222759112900565EB6 /* Day2.playground */,
+				EAB79528275A5EF900565EB6 /* Day3.playground */,
 			);
 			path = AoC2021Container;
 			sourceTree = "<group>";
